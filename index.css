@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    font-family: Nunito, sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0;
+    /* margin: 0; */
+}
+header{
+  
+    width: 100%;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.container{
+    height: 75px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 44px;
+    max-width: 1200px;
+    margin-inline: auto;
+
+}
+.fi{
+    font-size: 24px;
+    font-weight: 800;
+}
+.right{
+    display: flex;
+    font-size: 16px;
+}
+.main-container{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding-left: 41px;
+    margin-top: 44px;
+    padding-right: 41px;
+    padding-bottom: 51px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.rightt{
+    height: 50px;
+    width: 255px;
+    /* background-color: green; */
+}
+input{
+    height: 50px;
+    outline:none;
+    /* background-color: inherit; */
+    width: 326px;
+    border: none;
+    padding-left: 27px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    outline: none;
+    
+}
+
+select{
+    height: 50px;
+    width: 257px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 24px;
+    outline: none;
+    border: none;
+}
+@media (max-width:460px) {
+    .fi{
+        font-size: 15px;
+    }
+    .themename{
+       font-size: 14px;
+    }
+    .container{
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+   
+}
+
+.whole-cards{
+    /* Original Code */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin-inline: auto;
+    gap: 25px;
+   }
+.content-container{
+    /* Original code */
+    height: 321px;
+    width: 326px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.immg{
+    /* 100 percent of its parent container */
+    width: 100%;
+    /*  */
+    height: 45%;
+    /* using this object-fit:cover properrty we will make the image fit means if the images have small width or small height or if image have large width and large height then there is no effect of it one card it will look like same */
+    object-fit: cover;
+    border-top-left-radius:11px;
+    border-top-right-radius:11px;
+    padding-bottom: 11px;
+
+}
+
+.namee{
+    padding-left: 13px;
+    font-size:  24px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.pop{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.cap{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.re{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+@media(max-width:720px){
+    .main-container{
+        /* display: block; */
+        /* position: relative; */
+        padding-bottom: 118px;
+    }
+}
+#dark{
+    cursor: pointer;
+}
+
+
+@media(max-width:750px) {
+    .whole-cards{
+        justify-content: center;
+        /* width: 100%; */
+    }
+    .content-container{
+        /* width: 100%; */
+    }
+    .main-container{
+        margin-bottom: 100px;
+        flex-direction: column;
+        gap: 34px;
+    }
+}
+.content-container:hover{
+    transform:scale(1.03);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.meow{
+    background-color: #2B3945;
+}
+#search{
+    padding-left: 2px;
+    background-color: inherit;
+    outline: none;
+   
+}
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.left{
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
