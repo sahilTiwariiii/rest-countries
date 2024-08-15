@@ -171,6 +171,12 @@ select{
         flex-direction: column;
         gap: 34px;
     }
+    .left{
+        width: 0px;
+    }
+    input{
+        width: 276px
+    }
 }
 .content-container:hover{
     transform:scale(1.03);
