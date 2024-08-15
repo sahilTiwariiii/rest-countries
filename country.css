@@ -74,19 +74,6 @@
 }
 
 
-@media (max-width:460px) {
-    .fi{
-        font-size: 15px;
-    }
-    .themename{
-       font-size: 14px;
-    }
-    .container{
-        padding-left: 7px;
-        padding-right: 5px;
-    }
-   
-}
 
 header{
   
@@ -122,4 +109,20 @@ header{
 }
 a{
     text-decoration: none;
+}
+
+/* updated  */
+@media (max-width:460px) {
+    .fi{
+        font-size: 15px;
+    }
+    .themename{
+       font-size: 14px;
+       font-weight: 700;
+    }
+    .container{
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+   
 }
